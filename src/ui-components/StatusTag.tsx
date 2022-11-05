@@ -29,7 +29,7 @@ const StatusTag = ({ className, content, status, colorInverted }: Props) => {
 	}
 
 	return (
-		<div className={`${className} ${status} ${colorInverted && 'bg-white inverted'} text-xs rounded-full border-2 px-3 py-1 whitespace-nowrap truncate h-min`}>
+		<div className={`${className} ${status} ${colorInverted && 'bg-white inverted'} text-xs rounded-full border-2 px-3 py-1 whitespace-nowrap h-min`}>
 			{content}
 		</div>
 	);
